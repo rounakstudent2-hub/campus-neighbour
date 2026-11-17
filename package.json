@@ -1,0 +1,23 @@
+{
+  "name": "neighborhood-student-help-marketplace",
+  "version": "1.0.0",
+  "description": "Neighborhood Student Help Marketplace - Full Stack Hyperlocal Platform",
+  "scripts": {
+    "server": "node server/src/index.js",
+    "client": "npm --prefix client run dev",
+    "seed": "node server/src/database/seed.js",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "hyperlocal",
+    "marketplace",
+    "student-help",
+    "neighborhood",
+    "react",
+    "express",
+    "leaflet",
+    "socket.io"
+  ],
+  "author": "Google Deepmind Antigravity Agent",
+  "license": "MIT"
+}
